@@ -1,0 +1,44 @@
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1288px;
+    margin: 30px auto;
+    padding: 0 20px;
+    &.hidden {
+        display: none;
+    }
+
+    .slider-container {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+
+        .slider-track {
+            display: flex;
+            transition: .7s;
+
+                .slider-image {
+                    border-radius: 10px;
+                    display: block;
+                }
+        }
+    }
+    .slider-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        .btn-prev, 
+        .btn-next {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #cfcfcf80;
+        }
+
+        .btn-prev {
+            margin-right: 15px;
+        }
+    }
+    
+}

@@ -1,0 +1,1 @@
+export { isArray } from "./type-check";
