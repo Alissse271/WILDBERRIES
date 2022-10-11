@@ -31,8 +31,10 @@ export function saveTotalToLocalStorage(totalAmount) {
 }
 
 export function loadTotalFromLocalStorage() {
-        const loadedAmount = JSON.parse(localStorage.getItem('totalAmount'));
-        totalAmount = loadedAmount;
+    if (localStorage.getItem('totalAmount') === null) {
+        totalAmount = localStorage.setItem('totalAmount', 0)
+    }
+    const loadedAmount = JSON.parse(localStorage.getItem('totalAmount'));
+    totalAmount = loadedAmount;
     return totalAmount;
 }
-
