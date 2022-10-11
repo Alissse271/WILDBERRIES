@@ -1,0 +1,1 @@
+export { saveProductToLocalStorage, saveToLocalStorage, loadFromLocalStorage, clearLocalStorage, saveTotalToLocalStorage, loadTotalFromLocalStorage } from './data';

@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .slider-wrapper {
+        margin: 20px 0 10px;
+    }
+}
+
+@media (max-width: 525px) {
+    .slider-wrapper .slider-buttons .btn-prev, .slider-wrapper .slider-buttons .btn-next {
+        width: 20px;
+        height: 20px;
+    }
+}
