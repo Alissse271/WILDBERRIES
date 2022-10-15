@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .basket {
+        width: 400px;
+        height: 500px;
+    }
+    .basket-header {
+        padding: 10px 10px;
+    }
+    .basket-header-title {
+        margin: 0 30px;
+    }
+    .basket-header-button-clear {
+        margin: 0 10px 0 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .basket {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+    }
+}
+
+

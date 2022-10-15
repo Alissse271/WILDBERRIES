@@ -1,0 +1,1 @@
+export { SearchBlockMedia } from './search-block-media';

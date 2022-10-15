@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+button {
+    display: inline-block;
+    box-shadow: none;
+    background: none;
+    cursor: pointer;
+}
+
+#root {
+    margin: 0 auto;
+}
